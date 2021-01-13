@@ -1,0 +1,97 @@
+/* 编辑区域 */
+.right-card .container {
+  width: 240px;
+  box-sizing: border-box;
+  margin: 0 15px 20px 15px;
+}
+/* 小tab样式 */
+.sm-tab{
+  max-width: 60px;padding: 0 5px;
+  font-size: 14px;
+}
+.v-tab{
+  min-width:60px
+}
+/* 输入框通用样式 */
+.input-row {
+  height: 28px;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.input-row .label {
+  display: inline-block;
+  width: 70px;
+  height: 28px;
+}
+
+.input-row div {
+  max-width: 140px;
+}
+
+.v-text-field--outlined>.v-input__control>.v-input__slot {
+  min-height: 28px;
+  max-height: 28px;
+  color: #1B7AF8;
+}
+
+.v-textarea >.v-input__control>.v-input__slot {
+  min-height: 28px;
+  max-height: 84px;
+  color: #1B7AF8;
+}
+/* 清除vuetify默认样式 */
+.v-application--is-ltr .v-textarea.v-text-field--enclosed .v-text-field__slot textarea {
+  padding-right: 10px;
+  margin-top: 0;
+}
+
+.v-card__text {
+  padding: 0;
+} 
+
+.v-input--selection-controls {
+  margin-top: 0;
+  padding-top: 0;
+}
+.v-text-field--enclosed .v-input__append-inner, .v-text-field--enclosed .v-input__append-outer, .v-text-field--enclosed .v-input__prepend-inner, .v-text-field--enclosed .v-input__prepend-outer, .v-text-field--full-width .v-input__append-inner, .v-text-field--full-width .v-input__append-outer, .v-text-field--full-width .v-input__prepend-inner, .v-text-field--full-width .v-input__prepend-outer {
+  margin-top: 0;
+}
+
+/** 滑块样式 **/
+.right-card .v-input__control .v-text-field__details {
+  position: relative;
+  top: -10px;
+}
+.right-card .v-input__slider .v-input__append-outer {
+  position: relative;
+  top: -30px;
+  right: 30px;
+  width: 370px;
+}
+.right-card .slider-row .v-input__slider .v-slider {
+  width: 140px;
+  position: relative;
+  display: block;
+  left: 62px;
+}
+.right-card .slider-row .v-input__slider .v-slider--horizontal {
+  margin-right: -56px;
+}
+
+/** 折叠 双选 **/
+.right-card .fold .v-select__selection--comma {
+  overflow: inherit;
+}
+.right-card .fold .v-input {
+  width: 50px;
+  display: inline-block;
+}
+.right-card .fold .v-select__slot {
+  height: 28px;
+  line-height: 28px;
+}
+.right-card .fold .v-input__append-inner {
+  margin-top: 0;
+}

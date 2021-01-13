@@ -1,0 +1,199 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,/* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td {
+  /* table elements 表格元素 */
+  margin: 0;
+  padding: 0;
+}
+/* 设置默认字体 */
+body,
+button,
+input,
+select,
+textarea {
+  /* for ie */
+  /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+  /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+  /*font: 12px/1 Tahoma, Helvetica, Arial, '\5b8b\4f53', sans-serif;*/
+  font: 12px/1  'Microsoft YaHei';
+}
+
+h1 {
+  font-size: 18px; /* 18px / 12px = 1.5 */
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 14px;
+}
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+} /* 将斜体扶正 */
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: 'Courier New', Courier, monospace;
+} /* 统一等宽字体 */
+small {
+  font-size: 12px;
+} /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 重置文本格式元素 */
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+abbr[title],
+acronym[title] {
+  /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+q:before,
+q:after {
+  content: '';
+}
+
+/* 重置表单元素 */
+legend {
+  color: #000;
+} /* for ie6 */
+fieldset,
+img {
+  border: none;
+} /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button,
+input,
+select,
+textarea {
+  font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+  outline: none;
+}
+
+/* 重置表格元素 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+  border: none;
+  height: 1px;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html {
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1526950 */
+  src: url('//at.alicdn.com/t/font_1526950_9bqf6bleap.eot');
+  src: url('//at.alicdn.com/t/font_1526950_9bqf6bleap.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1526950_9bqf6bleap.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1526950_9bqf6bleap.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1526950_9bqf6bleap.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1526950_9bqf6bleap.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconsvg {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.full-bg-grey {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #F8F9FB;
+  overflow: auto;
+}
+.full-bg-auto {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: auto;
+}
+.text-blue  { color: #1b7af8 !important; }
+.text-red { color: #f03d15 !important; }
+.cursor-pointer { cursor: pointer; }
+
+/** 通用表格样式 示例见订单详情 **/
+.table1 {
+  line-height: 44px;
+  border:solid #dddddd;
+  border-width:1px 0 0 1px;
+  font-size: 14px;
+}
+.table1 thead tr {
+  background: #f8f9fb;
+  font-weight: 600;
+}
+.table1 td {
+  border:solid #dddddd;
+  border-width:0 1px 1px 0;
+}
+/** 警告 dialog 样式 **/
+.dialog-warning {
+  position: relative;
+  min-height: 40px;
+}
+.dialog-warning i {
+  position: absolute; top: 10px; left: 0;
+  font-size: 46px;color: #ff9909;
+}
+.dialog-warning span {
+  line-height: 24px;
+  display: inline-block;
+  margin-left: 60px;
+  text-align: left;
+}
+
+/** 自定义按钮 蓝色过渡色 **/
+.btn-blue {
+  color: #ffffff;
+  background: linear-gradient(to right, #37acfc, #1b7af8);
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background: #37acfc;
+}

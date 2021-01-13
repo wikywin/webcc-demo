@@ -1,0 +1,17 @@
+{
+    "newContents": "新增目录",
+    "exitEditing": "完成",
+    "edit": "编辑",
+    "script": "公式",
+    "newWindow": "新增窗型",
+    "typeNumber": "窗型编号",
+    "typeName": "窗型名称",
+    "delete": "删除",
+    "Tips": "该系列暂无窗型，请先新增",
+    "catalog": "请选择目录等级",
+    "catalog1": "一级目录",
+    "catalog2": "二级目录",
+    "Above": "请选择上级目录",
+    "directoryName": "目录名",
+    "remarks": "备注"
+}

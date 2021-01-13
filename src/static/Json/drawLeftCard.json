@@ -1,0 +1,614 @@
+[
+  {
+    "name": "leftmenu.kuang.kuang",
+    "icon": "iconputongkuang",
+    "content": [
+      {
+        "label": "leftmenu.kuang.pan",
+        "icon": "iconxuanze",
+        "action": "pan",
+        "q_key": "P"
+      },
+      {
+        "label": "leftmenu.kuang.juxing",
+        "icon": "iconputongkuang",
+        "action": "frame_rectangle",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.springline",
+        "action": "frame_springline",
+        "icon": "iconicon-test3",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.door",
+        "action": "door",
+        "icon": "iconmen",
+        "q_key": "F",
+        "children":[
+          {
+            "action": "frame_single_track",
+            "icon": "icondanguiwaikuang_you",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_single_track_left",
+            "icon": "icondanguiwaikuang_zuo",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_single_track_up",
+            "icon": "icondanguiwaikuang_shang",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_single_track_down",
+            "icon": "icondanguiwaikuang_xia",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_single_track_left_right",
+            "icon": "icondanguiwaikuang_zuoyou",
+            "q_key": "F"
+          }
+        ]
+      },
+      {
+        "label": "leftmenu.kuang.kfc",
+        "action": "frame_kfc",
+        "icon":"iconmen1",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.kfc2",
+        "action": "frame_kfc2",
+        "icon":"iconmen2",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.yuan",
+        "action": "frame_circle",
+        "icon": "iconicon-test6",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.parallelogram",
+        "action": "frame_parallelogram",
+        "icon": "iconicon-test21",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.banyuan",
+        "action": "frame_half_circle",
+        "icon": "iconicon-test",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.quartercircle",
+        "action": "frame_quarter_circle",
+        "icon": "iconicon-test2",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.gothic",
+        "action": "frame_gothic",
+        "icon": "iconicon-test19",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.onion",
+        "action": "frame_onion",
+        "icon": "iconicon-test13",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.octagon",
+        "action": "frame_octagon",
+        "icon": "iconicon-test4",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.springlineflanker",
+        "action": "frame_springline_flanker",
+        "icon": "iconicon-test30",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.isoscelestriangle",
+        "action": "frame_isosceles_triangle",
+        "icon": "iconicon-test20",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.hexagon",
+        "action": "frame_hexagon",
+        "icon": "iconicon-test46",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.diamond",
+        "action": "frame_diamond",
+        "icon": "iconicon-test10",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.angledpentagon",
+        "action": "frame_angled_pentagon",
+        "icon": "iconicon-test8",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.peakpentagon",
+        "action": "frame_peak_pentagon",
+        "icon": "iconsanjiaoding",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.trapezoid",
+        "action": "frame_trapezoid",
+        "icon": "icon06_shang",
+        "q_key": "F",
+        "children":[
+          {
+            "action": "frame_trapezoid",
+            "icon": "icon06_shang",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_trapezoid_right",
+            "icon": "icon06_you",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_trapezoid_down",
+            "icon": "icon06_xia",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_trapezoid_left",
+            "icon": "icon06_zuo",
+            "q_key": "F"
+          }
+        ]
+      },
+      {
+        "label": "leftmenu.kuang.quarterarch",
+        "action": "frame_quarter_arch",
+        "icon": "iconicon-test26",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.hollowside",
+        "action": "frame_hollow_side",
+        "icon": "icon35_you",
+        "q_key": "F",
+        "children":[
+          {
+            "action": "frame_hollow_side",
+            "icon": "icon35_you",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_hollow_side_down",
+            "icon": "icon35_xia",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_hollow_side_left",
+            "icon": "icon35_zuo",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_hollow_side_up",
+            "icon": "icon35_shang",
+            "q_key": "F"
+          }
+        ]
+      },
+      {
+        "label": "leftmenu.kuang.hollow",
+        "action": "frame_hollow",
+        "icon": "iconicon-test33",
+        "q_key": "F",
+        "children":[
+          {
+            "action": "frame_hollow",
+            "icon": "iconicon-test33",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_hollow_down",
+            "icon": "icon36_xia",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_hollow_left",
+            "icon": "icon36_zuo",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_hollow_right",
+            "icon": "icon36_you",
+            "q_key": "F"
+          }
+        ]
+      },
+      {
+        "label": "leftmenu.kuang.convex",
+        "action": "frame_convex",
+        "icon": "iconicon-test34",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.quatrefoil",
+        "action": "frame_quatrefoil",
+        "icon": "icon-1",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.extendedpartialarch",
+        "action": "frame_extended_partial_arch",
+        "icon": "iconicon-test14",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.triangle",
+        "action": "frame_triangle",
+        "icon": "iconicon-test37",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.ear_frame_settings",
+        "action": "frame_ear",
+        "icon": "iconkuang_you",
+        "q_key": "F",
+        "children":[
+          {
+            "action": "frame_ear",
+            "icon": "iconkuang_you",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_ear_left",
+            "icon": "iconkuang_zuo",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_ear_up",
+            "icon": "iconkuang_shang",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_ear_down",
+            "icon": "iconkuang_xia",
+            "q_key": "F"
+          }
+        ]
+      },
+      {
+        "label": "leftmenu.kuang.frame_double_ears",
+        "action": "frame_double_ears",
+        "icon": "iconshuanger",
+        "q_key": "F",
+        "children":[
+          {
+            "action": "frame_double_ears",
+            "icon": "iconshuanger_shang",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_double_ears_left",
+            "icon": "iconshuanger_zuo",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_double_ears_right",
+            "icon": "iconshuanger_you",
+            "q_key": "F"
+          },
+          {
+            "action": "frame_double_ears_down",
+            "icon": "iconshuanger_xia",
+            "q_key": "F"
+          }
+        ]
+      },
+      {
+        "label": "leftmenu.kuang.frame_wave",
+        "action": "frame_wave",
+        "icon": "iconicon-test15",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.frame_mosque",
+        "action": "frame_mosque",
+        "icon": "iconq",
+        "q_key": "F"
+      },
+      {
+        "label": "leftmenu.kuang.waikuang",
+        "action": "frame_polygon",
+        "tips": "leftmenu.yixingtips",
+        "icon": "iconshejijingli",
+        "q_key": "F"
+      }
+    ]
+  },
+  {
+    "name": "leftmenu.zhongting.zhongting",
+    "icon": "iconshuting",
+    "content": [
+      {
+        "label": "leftmenu.zhongting.shu",
+        "action": "mullion_vertical",
+        "icon": "iconshuting",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.heng",
+        "action": "mullion_horizontal",
+        "icon": "iconhengting",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.zuo",
+        "action": "mullion_diagnoal",
+        "icon": "iconting1",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.you",
+        "action": "mullion_counterdiagnoal",
+        "icon": "iconting",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.mullion_half_wheel",
+        "action": "mullion_half_wheel",
+        "icon": "iconfentiyuanhukuang1",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.mullion_semi_arc",
+        "action": "mullion_semi_arc",
+        "icon": "iconfentiyuanhukuang",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.innerArc",
+        "action": "mullion_inner_arc",
+        "icon": "iconicon-test35",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.semiArcPro",
+        "action": "mullion_semi_arc_pro",
+        "icon": "iconliantiyuanhukuang",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.spin",
+        "action": "mullion_spin",
+        "icon": "iconicon-test38",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.compoundsquare",
+        "action": "mullion_compound_square",
+        "icon": "iconicon-test43",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.compoundsquare",
+        "action": "mullion_compound_x_square",
+        "icon": "iconzhongting",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.compounddiamond",
+        "action": "mullion_compound_diamond",
+        "icon": "iconicon-test41",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.compoundcircle",
+        "action": "mullion_compound_circle",
+        "icon": "iconicon-test44",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.compoundhexagon",
+        "action": "mullion_compound_hexagon",
+        "icon": "iconicon-test45",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.halfhexagon",
+        "action": "mullion_half_hexagon",
+        "icon": "iconicon-test36",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.sijiao",
+        "icon": "iconsijiao",
+        "action": "mullion_compound_rectangle_single",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.bajiao",
+        "icon": "iconbajiao",
+        "action": "mullion_compound_rectangle_double",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.changbabianxing",
+        "icon": "iconchangbabianxing",
+        "action": "mullion_compound_long_octagon",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.shuangbabianxing",
+        "icon": "iconshuangbabianxing",
+        "action": "mullion_compound_double_octagon",
+        "q_key": "V"
+      },
+      {
+        "label": "leftmenu.zhongting.bolangzhongting",
+        "icon": "iconbolangzhongting",
+        "action": "mullion_wave",
+        "q_key": "V"
+      }
+    ]
+  },
+  {
+    "name": "leftmenu.pingkai.pingkai",
+    "icon": "iconduikaiboshan",
+    "content": [
+      {
+        "label": "leftmenu.pingkai.shan",
+        "action": "sash",
+        "icon": "iconboshan",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.screen",
+        "action": "screen",
+        "icon": "iconshashan",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.antiTheft",
+        "action": "antiTheft",
+        "icon": "iconfangdaokuang1",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.doubleSash",
+        "action": "doubleSash",
+        "icon": "iconduikaiboshan1",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.doubleScreen",
+        "action": "doubleScreen",
+        "icon": "iconduikaishashan1",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.kfcSash",
+        "action": "kfcSash",
+        "icon": "iconkfc_door2",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.doubleKfcSash",
+        "action": "doubleKfcSash",
+        "icon": "iconkfc_door",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.shadePushSash",
+        "action": "shadePushSash",
+        "icon": "iconpingkaibaiye",
+        "q_key": "S"
+      },
+      {
+        "label": "leftmenu.pingkai.doubleShadePushSash",
+        "action": "doubleShadePushSash",
+        "icon": "iconduikaibaiye",
+        "q_key": "S"
+      }
+    ]
+  },
+  {
+    "name": "leftmenu.tuilazhedie.tuilazhedie",
+    "icon": "icontuilaboshan",
+    "content": [
+      {
+        "label": "leftmenu.tuilazhedie.slide",
+        "action": "slide",
+        "icon": "icontuilaboshan",
+        "q_key": "D"
+      },
+      {
+        "label": "leftmenu.tuilazhedie.zhedieboshan",
+        "action": "foldSash",
+        "icon": "iconzhedieshan",
+        "q_key": "D"
+      },
+      {
+        "label": "leftmenu.tuilazhedie.zhedieshashan",
+        "action": "foldScreen",
+        "icon": "iconzhedieshashan",
+        "q_key": "D"
+      }
+    ]
+  },
+  {
+    "name": "leftmenu.extraDim.extraDim",
+    "icon": "icon05",
+    "content": [
+      {
+        "label": "leftmenu.extraDim.extraDimHorizontal",
+        "action": "extraDimHorizontal",
+        "icon": "icon02",
+        "q_key": "E"
+      },
+      {
+        "label": "leftmenu.extraDim.extraDimVertical",
+        "action": "extraDimVertical",
+        "icon": "icon03",
+        "q_key": "E"
+      },
+      {
+        "label": "leftmenu.extraDim.extraDimArbitrary",
+        "action": "extraDimArbitrary",
+        "icon": "icon04",
+        "q_key": "E"
+      },
+      {
+        "label": "leftmenu.extraDim.extraDimRadius",
+        "action": "extraDimRadius",
+        "icon": "icon05",
+        "q_key": "E"
+      },
+      {
+        "label": "leftmenu.extraDim.extraDimAngle",
+        "action": "extraDimAngle",
+        "icon": "icon01",
+        "q_key": "E"
+      },
+      {
+        "label": "leftmenu.extraDim.note",
+        "action": "note",
+        "icon": "iconbiaozhu1",
+        "q_key": "E"
+      }
+    ]
+  },
+  {
+    "name": "leftmenu.other.other",
+    "icon": "iconqita",
+    "content": [
+      {
+        "label": "leftmenu.other.wall",
+        "action": "wall",
+        "icon": "iconqiangzhi",
+        "q_key": "W"
+      },
+      {
+        "label": "leftmenu.other.connerJoiner",
+        "action": "connerJoiner",
+        "icon": "iconfanzhuan1",
+        "q_key": "C"
+      },
+      {
+        "label": "leftmenu.other.connector",
+        "action": "connector",
+        "icon": "iconlianjiejian",
+        "q_key": "C"
+      }
+    ]
+  }
+]

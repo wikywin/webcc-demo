@@ -1,0 +1,17 @@
+{
+    "newContents": "New contents",
+    "exitEditing": "Exit editing",
+    "script": "script",
+    "edit": "edit",
+    "newWindow": "New window",
+    "typeNumber": "type number",
+    "typeName": "type name",
+    "delete": "delete",
+    "Tips": "Please add this type of window first",
+    "catalog": "directory level",
+    "catalog1": "Primary directory",
+    "catalog2": "Secondary directory",
+    "Above": "superior directory",
+    "directoryName": "Directory name",
+    "remarks": "remarks"
+}

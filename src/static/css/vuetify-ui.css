@@ -1,0 +1,61 @@
+/* 禁止按钮英文自动大写 */
+.v-btn, .v-tab { text-transform: none; }
+/* 关键字搜索 输入框 */
+.filter-input.v-text-field--filled.v-input--dense.v-text-field--outlined.v-text-field--filled>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--filled.v-input--dense.v-text-field--outlined>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--filled.v-input--dense.v-text-field--single-line>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--full-width.v-input--dense.v-text-field--outlined.v-text-field--filled>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--full-width.v-input--dense.v-text-field--outlined>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--full-width.v-input--dense.v-text-field--single-line>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--outlined.v-input--dense.v-text-field--outlined.v-text-field--filled>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--outlined.v-input--dense.v-text-field--outlined>.v-input__control>.v-input__slot,
+.filter-input.v-text-field--outlined.v-input--dense.v-text-field--single-line>.v-input__control>.v-input__slot {
+  min-height: 36px;
+}
+/* 合同列表，订单左右滑动箭头 */
+.order-list i.iconfont.page { font-size: 40px; }
+@media (max-width: 960px) {
+  .order-list i.iconfont.page { font-size: 30px; }
+  .order-list .v-slide-group__next, .v-slide-group__prev { min-width: 26px; }
+  .order-list .v-tab { padding: 0 9px; }
+}
+/** dialog **/
+.v-dialog {
+  box-shadow: none;
+  border-radius: 0;
+}
+/** app-bar **/
+.top-bar .v-toolbar__content {
+  border-bottom: 1px solid #E4E5E6;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.12);
+}
+
+/** v-message **/
+.v-snack.message .v-snack__wrapper { box-shadow: 0 0 8px 0 rgba(0,0,0,.2); }
+.v-snack.message .v-snack__content{ padding-right: 0; }
+.v-snack.message-success .v-snack__wrapper .v-snack__content { border: 1px solid #BBEBE1; }
+.v-snack.message-error .v-snack__wrapper .v-snack__content { border: 1px solid #F8CAC5; }
+.v-snack.message-info .v-snack__wrapper .v-snack__content { border: 1px solid #EBF5FF; }
+.v-snack.message-warning .v-snack__wrapper .v-snack__content { border: 1px solid #F8CAC5; }
+
+/** v-pagination  **/
+.v-pagination__item,.v-pagination__navigation {
+  box-shadow: none;
+  height: 32px; min-width: 32px;
+  border: 1px solid #dddddd;
+  margin: .2rem;
+}
+
+/** 画图界面 左右侧操作菜单透明效果 **/
+.left-card.theme--light .v-tabs > .v-tabs-bar,
+.right-card.theme--light .v-tabs > .v-tabs-bar{
+  background-color: #fff0 !important;
+}
+.left-card.theme--dark .v-tabs > .v-tabs-bar,
+ .right-card.theme--dark .v-tabs > .v-tabs-bar{
+   background-color: #fff0 !important;
+ }
+.left-card .theme--light.v-tabs-items,
+.right-card .theme--light.v-tabs-items{
+  background-color: #fff0 !important;
+}
