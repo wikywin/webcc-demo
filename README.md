@@ -1,29 +1,9 @@
-# draw
+Prepare:
+open file: src/plugins/webcc.js and modify token (provided after purchased)
 
-## Project setup
-```
+How to use:
 npm install
-```
+npm run iwebcc   (npm login --registry http://gogs.thinkerx.com:4873 is required. username and password will be provided after purchased)
 
-### Compiles and hot-reloads for development
-```
+Run:
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
