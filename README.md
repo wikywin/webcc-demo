@@ -3,11 +3,11 @@
 <h4>Full features description can be found at: https://windowcc.com/</h4>
 
 <h3>Prepare:</h3>
-<p>open file: src/plugins/webcc.js and modify token (provided after purchased)</p>
+<p>open file: src/plugins/webcc.js and modify token (provided after purchasing license)</p>
 
 <h3>How to use:</h3>
 <p>npm install</p>
-<p>npm run iwebcc   (npm login --registry http://gogs.thinkerx.com:4873 is required. username and password will be provided after purchased)</p>
+<p>npm run iwebcc   (npm login --registry http://gogs.thinkerx.com:4873 is required. username and password will be provided after purchasing license)</p>
 
 <h3>Run:</h3>
 <p>npm run serve</p>
