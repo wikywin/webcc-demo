@@ -1,29 +1,14 @@
-# draw
+![window design](https://webcc-pro.thinkerx.com/official_website/resource/home_pic9.gif)
+<h3>webcc is a npm package which allow anyone to design any window and door with drag & drop.</h3>
+<h4>Full features description can be found at: https://windowcc.com/</h4>
 
-## Project setup
-```
-npm install
-```
+<h3>Prepare:</h3>
+<p>open file: src/plugins/webcc.js and modify token (provided after purchasing license)</p>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<h3>How to use:</h3>
+<p>npm install</p>
+<p>npm run iwebcc   (npm login --registry http://gogs.thinkerx.com:4873 is required. username and password will be provided after purchasing license)</p>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+<h3>Run:</h3>
+<p>npm run serve</p>
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
