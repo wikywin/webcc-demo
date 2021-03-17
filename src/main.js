@@ -26,7 +26,7 @@ Vue.prototype.$cookies = cookies;
 import zh_cn from './static/lang/zh-cn/zh-cn';
 import en_us from "./static/lang/en-us/en-us"
 const i18n = new VueI18n({
-    locale: 'zh-CN', // 语言标识
+    locale: 'en-US', // 语言标识
     //this.$i18n.locale // 通过切换locale的值来实现语言切换
     messages: {
         'zh-CN': zh_cn, // 中文语言包
