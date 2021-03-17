@@ -1,4 +1,52 @@
 [
+	{
+	  "name": "leftmenu.common.common",
+	  "icon": "iconqita",
+	  "content": [
+	    {
+	      "label": "leftmenu.common.juxing",
+	      "action": "frame_scalable",
+	      "icon": "iconputongkuang",
+	      "q_key": "W"
+	    },
+	    {
+	      "label": "leftmenu.common.hengshuting",
+	      "action": "mullion_cross_line",
+	      "icon": "iconshuting",
+	      "q_key": "V"
+	    },
+	    {
+	      "label": "leftmenu.common.pingkaishan",
+	      "action": "sash",
+	      "icon": "iconboshan",
+	      "q_key": "S"
+	    },
+	    {
+	      "label": "leftmenu.common.shasha",
+	      "action": "screen",
+	      "icon": "iconshashan",
+	      "q_key": "S"
+	    },
+	    {
+	      "label": "leftmenu.common.fangdaokuang",
+	      "action": "antiTheft",
+	      "icon": "iconfangdaokuang1",
+	      "q_key": "S"
+	    },
+	    {
+	      "label": "leftmenu.common.tuilashan",
+	      "action": "slide",
+	      "icon": "icontuilaboshan",
+	      "q_key": "C"
+	    },
+	    {
+	      "label": "leftmenu.common.zhedieboshan",
+	      "action": "foldSash",
+	      "icon": "iconzhedieshan",
+	      "q_key": "D"
+	    }
+	  ]
+	},
   {
     "name": "leftmenu.kuang.kuang",
     "icon": "iconputongkuang",
@@ -12,8 +60,9 @@
       {
         "label": "leftmenu.kuang.juxing",
         "icon": "iconputongkuang",
-        "action": "frame_rectangle",
-        "q_key": "F"
+        "action": "frame_scalable",
+        "q_key": "F",
+		"is_active": true
       },
       {
         "label": "leftmenu.kuang.springline",
@@ -134,7 +183,7 @@
       },
       {
         "label": "leftmenu.kuang.angledpentagon",
-        "action": "frame_angled_pentagon",
+        "action": "frame_angled_pentagon", 
         "icon": "iconicon-test8",
         "q_key": "F"
       },
@@ -150,22 +199,22 @@
         "icon": "icon06_shang",
         "q_key": "F",
         "children":[
-          {
+          { 
             "action": "frame_trapezoid",
             "icon": "icon06_shang",
             "q_key": "F"
           },
-          {
+          { 
             "action": "frame_trapezoid_right",
             "icon": "icon06_you",
             "q_key": "F"
           },
-          {
+          { 
             "action": "frame_trapezoid_down",
             "icon": "icon06_xia",
             "q_key": "F"
           },
-          {
+          { 
             "action": "frame_trapezoid_left",
             "icon": "icon06_zuo",
             "q_key": "F"
@@ -340,28 +389,11 @@
     "icon": "iconshuting",
     "content": [
       {
-        "label": "leftmenu.zhongting.shu",
-        "action": "mullion_vertical",
+        "label": "leftmenu.zhongting.hua",
+        "action": "mullion_cross_line",
         "icon": "iconshuting",
-        "q_key": "V"
-      },
-      {
-        "label": "leftmenu.zhongting.heng",
-        "action": "mullion_horizontal",
-        "icon": "iconhengting",
-        "q_key": "V"
-      },
-      {
-        "label": "leftmenu.zhongting.zuo",
-        "action": "mullion_diagnoal",
-        "icon": "iconting1",
-        "q_key": "V"
-      },
-      {
-        "label": "leftmenu.zhongting.you",
-        "action": "mullion_counterdiagnoal",
-        "icon": "iconting",
-        "q_key": "V"
+        "q_key": "V",
+		"is_active": true
       },
       {
         "label": "leftmenu.zhongting.mullion_half_wheel",
@@ -469,7 +501,8 @@
         "label": "leftmenu.pingkai.shan",
         "action": "sash",
         "icon": "iconboshan",
-        "q_key": "S"
+        "q_key": "S",
+		"is_active": true
       },
       {
         "label": "leftmenu.pingkai.screen",
@@ -529,7 +562,8 @@
         "label": "leftmenu.tuilazhedie.slide",
         "action": "slide",
         "icon": "icontuilaboshan",
-        "q_key": "D"
+        "q_key": "D",
+		"is_active": true
       },
       {
         "label": "leftmenu.tuilazhedie.zhedieboshan",
@@ -546,6 +580,31 @@
     ]
   },
   {
+    "name": "leftmenu.fill.fill",
+    "icon": "icontianchong",
+    "content": [
+      {
+        "label": "leftmenu.fill.glass",
+        "action": "fillerGlass",
+        "icon": "iconbolichanpin",
+        "q_key": "T",
+		"is_active": true
+      },
+      {
+        "label": "leftmenu.fill.panel",
+        "action": "fillerPanel",
+        "icon": "iconshimubancai",
+        "q_key": "T"
+      },
+      {
+        "label": "leftmenu.fill.shade",
+        "action": "fillerShade",
+        "icon": "iconbaiyechuang",
+        "q_key": "T"
+      }
+    ]
+  },
+  {
     "name": "leftmenu.extraDim.extraDim",
     "icon": "icon05",
     "content": [
@@ -553,7 +612,8 @@
         "label": "leftmenu.extraDim.extraDimHorizontal",
         "action": "extraDimHorizontal",
         "icon": "icon02",
-        "q_key": "E"
+        "q_key": "E",
+		"is_active": true
       },
       {
         "label": "leftmenu.extraDim.extraDimVertical",
@@ -595,7 +655,8 @@
         "label": "leftmenu.other.wall",
         "action": "wall",
         "icon": "iconqiangzhi",
-        "q_key": "W"
+        "q_key": "W",
+		"is_active": true
       },
       {
         "label": "leftmenu.other.connerJoiner",
