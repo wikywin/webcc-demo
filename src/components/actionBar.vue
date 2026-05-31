@@ -134,9 +134,9 @@ export default {
     logo(){
       let language = localStorage.getItem("language") || "zh-CN";
       if (language != "zh-CN")
-        return "https://webcc-pro.thinkerx.com/imge/web_source/logo-en.png";
+        return "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/web_source/logo-en.png";
       else
-        return "https://webcc-pro.thinkerx.com/imge/web_source/logo-zh.png";
+        return "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/web_source/logo-zh.png";
     },
   },
   mounted() {

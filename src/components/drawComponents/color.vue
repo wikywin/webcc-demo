@@ -73,97 +73,97 @@ export default {
       {
         id: "2068", outside: false, inside: false,
         name: "巴西柚木",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/201.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/201.png"
       },
       {
         id: "2069", outside: false, inside: false,
         name: "白松木",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/202.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/202.png"
       },
       {
         id: "2070", outside: false, inside: false,
         name: "纯白",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/203.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/203.png"
       },
       {
         id: "2071", outside: false, inside: false,
         name: "瓷泳灰",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/204.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/204.png"
       },
       {
         id: "2075", outside: false, inside: false,
         name: "瓷泳金",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/205.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/205.png"
       },
       {
         id: "2076", outside: false, inside: false,
         name: "横纹紫檀",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/206.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/206.png"
       },
       {
         id: "2077", outside: false, inside: false,
         name: "红花梨",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/207.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/207.png"
       },
       {
         id: "2078", outside: false, inside: false,
         name: "红橡",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/208.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/208.png"
       },
       {
         id: "2080", outside: false, inside: false,
         name: "肌肤黑",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/209.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/209.png"
       },
       {
         id: "2081", outside: false, inside: false,
         name: "金丝楠",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/210.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/210.png"
       },
       {
         id: "2082", outside: false, inside: false,
         name: "金橡",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/211.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/211.png"
       },
       {
         id: "2083", outside: false, inside: false,
         name: "沙比利",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/212.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/212.png"
       },
       {
         id: "2084", outside: false, inside: false,
         name: "水晶红",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/213.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/213.png"
       },
       {
         id: "2085", outside: false, inside: false,
         name: "水曲柳",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/214.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/214.png"
       },
       {
         id: "2086", outside: false, inside: false,
         name: "香槟",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/215.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/215.png"
       },
       {
         id: "2088", outside: false, inside: false,
         name: "樱桃木",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/216.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/216.png"
       },
       {
         id: "2089", outside: false, inside: false,
         name: "柚木",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/217.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/217.png"
       },
       {
         id: "2090", outside: false, inside: false,
         name: "原木",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/218.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/218.png"
       },
       {
         id: "2091", outside: false, inside: false,
         name: "尊贵白",
-        pic: "https://webcc-pro.thinkerx.com/imge/woodcolorpic/219.png"
+        pic: "https://webcc-pro.oss-cn-hangzhou.aliyuncs.com/imge/woodcolorpic/219.png"
       }
     ]
   }),
